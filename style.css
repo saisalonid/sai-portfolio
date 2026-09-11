@@ -459,10 +459,20 @@ nav {
     }
 
     .home-image {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.home-image img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
 
     .home-image img {
         width: 180px;
