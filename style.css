@@ -429,56 +429,47 @@ nav {
     /* Home Section */
 
 #home {
-    min-height: 85vh;
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 15px;
+        gap: 20px;
+        text-align: center;
+    }
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    .home-text {
+        width: 100%;
+        max-width: 100%;
+    }
 
-    padding: 60px 10%;
+    .home-text h1 {
+        font-size: 32px;
+        margin: 5px 0;
+    }
 
-    gap: 50px;
-}
+    .home-text h2 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
 
+    .description {
+        font-size: 15px;
+        line-height: 1.5;
+    }
 
-.home-text {
-    max-width: 600px;
-}
+    .home-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
-
-.intro {
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-
-
-.home-text h1 {
-    font-size: 58px;
-    margin: 5px 0;
-}
-
-
-.home-text h2 {
-    font-size: 25px;
-    font-weight: normal;
-    margin: 15px 0;
-}
-
-
-.description {
-    font-size: 18px;
-    line-height: 1.7;
-}
-
-
-.home-image img {
-    width: 320px;
-    height: 320px;
-
-    object-fit: cover;
-
-    border-radius: 50%;
-}
+    .home-image img {
+        width: 180px;
+        height: 180px;
+        max-width: 180px;
+        object-fit: cover;
+    }
 
 
 .home-buttons {
