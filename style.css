@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+img {
+    max-width: 100%
+}
 
 html {
     scroll-behavior: smooth;
@@ -372,8 +375,9 @@ nav {
     }
 
     nav a {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 13px;
     }
 
     /* Home Section */
